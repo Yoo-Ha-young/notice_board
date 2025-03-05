@@ -125,7 +125,7 @@
       <recent name="com.board.board.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JpaRepositoryTest.givenTestData_whenDeleting_thenWorksFine">
+  <component name="RunManager" selected="Spring Boot.BoardApplication">
     <configuration name="BoardApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="board.test" />
       <extension name="coverage">
@@ -240,7 +240,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741002624975</updated>
       <workItem from="1741002626343" duration="554000" />
-      <workItem from="1741013306456" duration="19387000" />
+      <workItem from="1741013306456" duration="22871000" />
     </task>
     <servers />
   </component>
