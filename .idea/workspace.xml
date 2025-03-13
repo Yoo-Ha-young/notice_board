@@ -5,13 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="784db0c8-118d-4fc6-b238-a8645f0c1ff3" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/config/JpaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/board.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/dto/ArticleWithCommentsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/dto/UserAccountDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/dto/response/ArticleCommentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/dto/response/ArticleResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/dto/response/ArticleWithCommentsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7461e64d-8810-4bf1-a901-c3d6d4dbc29d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7461e64d-8810-4bf1-a901-c3d6d4dbc29d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/board/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/.gradle/8.12.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/board/.gradle/8.12.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/.gradle/8.12.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/board/.gradle/8.12.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/.gradle/8.12.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/board/.gradle/8.12.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/board/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/src/main/java/com/board/board/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/controller/ArticleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/board/src/main/java/com/board/board/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/domain/Article.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/board/src/main/java/com/board/board/domain/ArticleComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/domain/ArticleComment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/src/main/java/com/board/board/domain/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/domain/UserAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/src/main/java/com/board/board/repository/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/repository/ArticleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/src/main/resources/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/resources/templates/articles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/src/main/resources/templates/articles/index.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/resources/templates/articles/index.th.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/src/test/java/com/board/board/controller/ArticleControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/test/java/com/board/board/controller/ArticleControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/src/test/java/com/board/board/repository/JpaRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/test/java/com/board/board/repository/JpaRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +50,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/board">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -36,25 +63,13 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="board" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="board" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="board" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="board" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -66,8 +81,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="com.intellij.jpb.NewRecord" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -82,11 +102,30 @@
 }</component>
   <component name="ProjectId" id="2tnzSEzEipdkbQP6zHnc5mGSidS" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "DtoCreateDialog.USE_JAVA_RECORDS_INITIAL_PROP_KEY": "true",
+    "Gradle.ArticleControllerTest.executor": "Run",
+    "Gradle.ArticleControllerTest.givenNothing_whenRequestingArticleView_thenReturnArticleView.executor": "Run",
+    "Gradle.ArticleControllerTest.givenNothing_whenRequestingArticleView_thenReturnsArticleView.executor": "Run",
+    "Gradle.ArticleControllerTest.givenNothing_whenRequestingArticlesView_thenReturnArticlesView.executor": "Run",
+    "Gradle.ArticleControllerTest.givenNothing_whenRequestingArticlesView_thenReturnsArticlesView.executor": "Run",
+    "Gradle.ArticleServiceTest.executor": "Run",
+    "Gradle.ArticleServiceTest.givenArticleId_whenSearchingArticle_thenReturnsArticle.executor": "Run",
+    "Gradle.ArticleServiceTest.givenArticleInfo_whenSavingArticle_thenSavesArticle.executor": "Run",
+    "Gradle.ArticleServiceTest.givenNonexistentArticleId_whenSearchingArticle_thenThrowsException.executor": "Run",
+    "Gradle.ArticleServiceTest.givenSearchParameters_whenSearchingArticles_thenReturnsArticlePage.executor": "Run",
+    "Gradle.AuthControllerTest.givenNothing_whenTryingToLogin_thenReturnLoginView.executor": "Run",
+    "Gradle.C:/Users/pc/Desktop/project/notice_board/board [dependencies].executor": "Run",
+    "Gradle.DataRestTest.executor": "Run",
+    "Gradle.DataRestTest.test.executor": "Run",
+    "Gradle.MainControllerTest.executor": "Run",
+    "Gradle.MainControllerTest.givenNothing_whenRequestingRootPage_thenRedirectsToArticlesPage.executor": "Run",
+    "Gradle.board [clean].executor": "Run",
+    "Gradle.board 빌드.executor": "Run",
     "JUnit.BoardApplicationTests.executor": "Run",
     "JUnit.JpaRepositoryTest.givenTestData_whenDeleting_thenWorksFine.executor": "Run",
     "JUnit.JpaRepositoryTest.givenTestData_whenInsert_thenWorksFine.executor": "Run",
@@ -100,15 +139,17 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.BoardApplication.executor": "Run",
-    "git-widget-placeholder": "feature/#5-db",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "feature/#6-userAccount",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/pc/Desktop/project/notice_board",
+    "last_opened_file_path": "C:/Users/pc/Desktop/project/notice_board/board/src/main/resources/templates/articles",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "project.propCompiler",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -121,89 +162,143 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.board.board.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\project\notice_board\board\src\main\resources\templates\articles" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.board.board.service" />
+      <recent name="com.board.board.controller" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.board.board.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JpaRepositoryTest.givenTestData_whenDeleting_thenWorksFine">
-    <configuration name="BoardApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="board.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.board.board.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.board.board" />
-      <option name="MAIN_CLASS_NAME" value="com.board.board.BoardApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Spring Boot.BoardApplication">
+    <configuration name="ArticleControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/board" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.board.board.controller.ArticleControllerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="JpaRepositoryTest.givenTestData_whenDeleting_thenWorksFine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="board.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.board.board.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.board.board.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.board.board.repository.JpaRepositoryTest" />
-      <option name="METHOD_NAME" value="givenTestData_whenDeleting_thenWorksFine" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="ArticleControllerTest.givenNothing_whenRequestingArticleView_thenReturnsArticleView" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/board" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.board.board.controller.ArticleControllerTest.givenNothing_whenRequestingArticleView_thenReturnsArticleView&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="JpaRepositoryTest.givenTestData_whenInsert_thenWorksFine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="board.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.board.board.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.board.board.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.board.board.repository.JpaRepositoryTest" />
-      <option name="METHOD_NAME" value="givenTestData_whenInsert_thenWorksFine" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="ArticleControllerTest.givenNothing_whenRequestingArticlesView_thenReturnArticlesView" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/board" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.board.board.controller.ArticleControllerTest.givenNothing_whenRequestingArticlesView_thenReturnArticlesView&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="JpaRepositoryTest.givenTestData_whenSelecting_thenWorksFine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="board.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.board.board.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.board.board.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.board.board.repository.JpaRepositoryTest" />
-      <option name="METHOD_NAME" value="givenTestData_whenSelecting_thenWorksFine" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="ArticleControllerTest.givenNothing_whenRequestingArticlesView_thenReturnsArticlesView" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/board" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.board.board.controller.ArticleControllerTest.givenNothing_whenRequestingArticlesView_thenReturnsArticlesView&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="JpaRepositoryTest.givenTestData_whenUpdating_thenWorksFine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="board.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.board.board.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.board.board.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.board.board.repository.JpaRepositoryTest" />
-      <option name="METHOD_NAME" value="givenTestData_whenUpdating_thenWorksFine" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="ArticleServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/board" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.board.board.service.ArticleServiceTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="BoardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -215,11 +310,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JpaRepositoryTest.givenTestData_whenDeleting_thenWorksFine" />
-        <item itemvalue="JUnit.JpaRepositoryTest.givenTestData_whenUpdating_thenWorksFine" />
-        <item itemvalue="JUnit.JpaRepositoryTest.givenTestData_whenInsert_thenWorksFine" />
-        <item itemvalue="JUnit.JpaRepositoryTest.givenTestData_whenSelecting_thenWorksFine" />
-        <item itemvalue="JUnit.BoardApplicationTests" />
+        <item itemvalue="Gradle.ArticleControllerTest.givenNothing_whenRequestingArticleView_thenReturnsArticleView" />
+        <item itemvalue="Gradle.ArticleControllerTest.givenNothing_whenRequestingArticlesView_thenReturnsArticlesView" />
+        <item itemvalue="Gradle.ArticleControllerTest.givenNothing_whenRequestingArticlesView_thenReturnArticlesView" />
+        <item itemvalue="Gradle.ArticleControllerTest" />
+        <item itemvalue="Gradle.ArticleServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +335,9 @@
       <option name="presentableId" value="Default" />
       <updated>1741002624975</updated>
       <workItem from="1741002626343" duration="554000" />
-      <workItem from="1741013306456" duration="23652000" />
+      <workItem from="1741013306456" duration="37372000" />
+      <workItem from="1741423813874" duration="59979000" />
+      <workItem from="1741856572198" duration="4187000" />
     </task>
     <servers />
   </component>
