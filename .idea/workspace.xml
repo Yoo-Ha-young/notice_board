@@ -5,37 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="784db0c8-118d-4fc6-b238-a8645f0c1ff3" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/board.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/dto/ArticleWithCommentsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/dto/UserAccountDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/dto/response/ArticleCommentResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/dto/response/ArticleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/dto/response/ArticleWithCommentsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7461e64d-8810-4bf1-a901-c3d6d4dbc29d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7461e64d-8810-4bf1-a901-c3d6d4dbc29d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board/.gradle/8.12.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/board/.gradle/8.12.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/board/.gradle/8.12.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/board/.gradle/8.12.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/board/.gradle/8.12.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/board/.gradle/8.12.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/board/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/board/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board/src/main/java/com/board/board/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board/src/main/java/com/board/board/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/domain/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board/src/main/java/com/board/board/domain/ArticleComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/domain/ArticleComment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board/src/main/java/com/board/board/domain/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/domain/UserAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board/src/main/java/com/board/board/repository/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/java/com/board/board/repository/ArticleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board/src/main/resources/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/resources/templates/articles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board/src/main/resources/templates/articles/index.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/resources/templates/articles/index.th.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board/src/test/java/com/board/board/controller/ArticleControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/test/java/com/board/board/controller/ArticleControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board/src/test/java/com/board/board/repository/JpaRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/test/java/com/board/board/repository/JpaRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/src/main/resources/templates/articles/detail.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/resources/templates/articles/detail.th.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,63 +78,63 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "DtoCreateDialog.USE_JAVA_RECORDS_INITIAL_PROP_KEY": "true",
-    "Gradle.ArticleControllerTest.executor": "Run",
-    "Gradle.ArticleControllerTest.givenNothing_whenRequestingArticleView_thenReturnArticleView.executor": "Run",
-    "Gradle.ArticleControllerTest.givenNothing_whenRequestingArticleView_thenReturnsArticleView.executor": "Run",
-    "Gradle.ArticleControllerTest.givenNothing_whenRequestingArticlesView_thenReturnArticlesView.executor": "Run",
-    "Gradle.ArticleControllerTest.givenNothing_whenRequestingArticlesView_thenReturnsArticlesView.executor": "Run",
-    "Gradle.ArticleServiceTest.executor": "Run",
-    "Gradle.ArticleServiceTest.givenArticleId_whenSearchingArticle_thenReturnsArticle.executor": "Run",
-    "Gradle.ArticleServiceTest.givenArticleInfo_whenSavingArticle_thenSavesArticle.executor": "Run",
-    "Gradle.ArticleServiceTest.givenNonexistentArticleId_whenSearchingArticle_thenThrowsException.executor": "Run",
-    "Gradle.ArticleServiceTest.givenSearchParameters_whenSearchingArticles_thenReturnsArticlePage.executor": "Run",
-    "Gradle.AuthControllerTest.givenNothing_whenTryingToLogin_thenReturnLoginView.executor": "Run",
-    "Gradle.C:/Users/pc/Desktop/project/notice_board/board [dependencies].executor": "Run",
-    "Gradle.DataRestTest.executor": "Run",
-    "Gradle.DataRestTest.test.executor": "Run",
-    "Gradle.MainControllerTest.executor": "Run",
-    "Gradle.MainControllerTest.givenNothing_whenRequestingRootPage_thenRedirectsToArticlesPage.executor": "Run",
-    "Gradle.board [clean].executor": "Run",
-    "Gradle.board 빌드.executor": "Run",
-    "JUnit.BoardApplicationTests.executor": "Run",
-    "JUnit.JpaRepositoryTest.givenTestData_whenDeleting_thenWorksFine.executor": "Run",
-    "JUnit.JpaRepositoryTest.givenTestData_whenInsert_thenWorksFine.executor": "Run",
-    "JUnit.JpaRepositoryTest.givenTestData_whenSelecting_thenWorksFine.executor": "Run",
-    "JUnit.JpaRepositoryTest.givenTestData_whenUpdating_thenWorksFine.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.BoardApplication.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "feature/#6-userAccount",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/pc/Desktop/project/notice_board/board/src/main/resources/templates/articles",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;DtoCreateDialog.USE_JAVA_RECORDS_INITIAL_PROP_KEY&quot;: &quot;true&quot;,
+    &quot;Gradle.ArticleControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ArticleControllerTest.givenNothing_whenRequestingArticleView_thenReturnArticleView.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ArticleControllerTest.givenNothing_whenRequestingArticleView_thenReturnsArticleView.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ArticleControllerTest.givenNothing_whenRequestingArticlesView_thenReturnArticlesView.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ArticleControllerTest.givenNothing_whenRequestingArticlesView_thenReturnsArticlesView.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ArticleServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ArticleServiceTest.givenArticleId_whenSearchingArticle_thenReturnsArticle.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ArticleServiceTest.givenArticleInfo_whenSavingArticle_thenSavesArticle.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ArticleServiceTest.givenNonexistentArticleId_whenSearchingArticle_thenThrowsException.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ArticleServiceTest.givenSearchParameters_whenSearchingArticles_thenReturnsArticlePage.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AuthControllerTest.givenNothing_whenTryingToLogin_thenReturnLoginView.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.C:/Users/pc/Desktop/project/notice_board/board [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DataRestTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DataRestTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MainControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MainControllerTest.givenNothing_whenRequestingRootPage_thenRedirectsToArticlesPage.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.board [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.board 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BoardApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JpaRepositoryTest.givenTestData_whenDeleting_thenWorksFine.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JpaRepositoryTest.givenTestData_whenInsert_thenWorksFine.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JpaRepositoryTest.givenTestData_whenSelecting_thenWorksFine.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JpaRepositoryTest.givenTestData_whenUpdating_thenWorksFine.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BoardApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/#11-service&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pc/Desktop/project/notice_board/board/src/main/resources/templates/articles&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
-      "MySQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;MySQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.board.board.dto" />
@@ -337,7 +311,8 @@
       <workItem from="1741002626343" duration="554000" />
       <workItem from="1741013306456" duration="37372000" />
       <workItem from="1741423813874" duration="59979000" />
-      <workItem from="1741856572198" duration="4187000" />
+      <workItem from="1741856572198" duration="8482000" />
+      <workItem from="1741919019366" duration="2786000" />
     </task>
     <servers />
   </component>
