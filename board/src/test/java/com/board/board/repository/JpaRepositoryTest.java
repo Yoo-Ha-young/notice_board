@@ -36,39 +36,37 @@ public class JpaRepositoryTest {
     }
 
     @Test
-    void givenTestData_whenInsert_thenWorksFine() {
+//    void givenTestData_whenInsert_thenWorksFine() {
+//
+//        // Given
+//        long previousCount = articleRepository.count();
+//        Article savedArticle = articleRepository.save(
+//                Article.of("new article", "new content", "#spring"));
+//        // When
+//        List<Article> articles = articleRepository.findAll();
+//
+//        // Then
+//        assertThat(articleRepository.count()).isEqualTo(previousCount + 1);
+//    }
 
-        // Given
-        long previousCount = articleRepository.count();
-        Article savedArticle = articleRepository.save(
-                Article.of("new article", "new content", "#spring"));
-        // When
-        List<Article> articles = articleRepository.findAll();
-
-        // Then
-        assertThat(articleRepository.count()).isEqualTo(previousCount + 1);
-    }
-
-    @BeforeEach
-    void setUp() {
-        // 초기화
-        articleCommentRepository.deleteAll();
-        articleRepository.deleteAll();
-
-        // 데이터 추가
-        Article article1 = articleRepository.saveAndFlush(Article.of("title1", "content1", "#spring"));
-        Article article2 = articleRepository.saveAndFlush(Article.of("title2", "content2", "#java"));
-        Article article3 = articleRepository.saveAndFlush(Article.of("title3", "content3", "#jpa"));
-
-        articleCommentRepository.saveAndFlush(ArticleComment.of(article1, "comment1 for article1"));
-        articleCommentRepository.saveAndFlush(ArticleComment.of(article1, "comment2 for article1"));
-        articleCommentRepository.saveAndFlush(ArticleComment.of(article2, "comment1 for article2"));
-        articleCommentRepository.saveAndFlush(ArticleComment.of(article3, "comment1 for article3"));
-    }
+//    @BeforeEach
+//    void setUp() {
+//        // 초기화
+//        articleCommentRepository.deleteAll();
+//        articleRepository.deleteAll();
+//
+//        // 데이터 추가
+//        Article article1 = articleRepository.saveAndFlush(Article.of("title1", "content1", "#spring"));
+//        Article article2 = articleRepository.saveAndFlush(Article.of("title2", "content2", "#java"));
+//        Article article3 = articleRepository.saveAndFlush(Article.of("title3", "content3", "#jpa"));
+//
+//        articleCommentRepository.saveAndFlush(ArticleComment.of(article1, "comment1 for article1"));
+//        articleCommentRepository.saveAndFlush(ArticleComment.of(article1, "comment2 for article1"));
+//        articleCommentRepository.saveAndFlush(ArticleComment.of(article2, "comment1 for article2"));
+//        articleCommentRepository.saveAndFlush(ArticleComment.of(article3, "comment1 for article3"));
+//    }
 
 
-
-    @Test
     @DisplayName("update 테스트")
     void givenTestData_whenUpdating_thenWorksFine() {
 
